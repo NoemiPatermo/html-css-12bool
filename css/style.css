@@ -1,4 +1,14 @@
-.col{
+
+.row{
+    height: 100%;
+}
+
+[class*="col"]{
     border: 1px solid black;
     background-color: lightcoral;
+    height: 100px;
+    text-align: center;
+    padding: 15px;
 }
+ 
+
